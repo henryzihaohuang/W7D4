@@ -7,6 +7,7 @@
 }
 
 .language-nav {
+	display: flex;
 	position: absolute;
 	top: -15px;
 	left: calc(50% - (177.78px/2));
@@ -22,6 +23,9 @@
 		font-family: $sans-serif;
 		font-size: 10px;
 		color: $dark-gray;
+	}
+	li:first-child {
+		font-weight: bold;
 	}
 
 	ul {
@@ -44,6 +48,9 @@
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
+	}
+	li:last-child{
+		border: none;
 	}
 
 	button {

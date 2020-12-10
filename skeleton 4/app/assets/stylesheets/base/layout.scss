@@ -5,6 +5,11 @@ html {
 	height: 100%;
 }
 
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 body {
 	width: 80%;
 	margin: 0 auto;
@@ -27,7 +32,7 @@ button {
 }
 
 button:hover {
-	background-color: $dark-blue;
+	background-color: black;
 	// border-color:
 }
 
