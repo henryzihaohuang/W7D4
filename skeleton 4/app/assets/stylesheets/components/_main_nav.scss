@@ -4,14 +4,16 @@
 
 .left-nav > ul,
 .right-nav > ul {
-
+  font-weight: bold;
+  font-family: $sans-serif;
+  text-transform: uppercase;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+      padding: 5px;
     }
   }
 
@@ -25,7 +27,7 @@
   > ul {
 
     > li {
-  
+      font-style: uppercase;
     }
 
     > li:last-of-type {
