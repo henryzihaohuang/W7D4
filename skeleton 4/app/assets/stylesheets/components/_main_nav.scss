@@ -1,11 +1,21 @@
+$mar:10px;
+
 .main-nav {
 
+  display: flex;
+  justify-content: space-between; 
+  padding: 10px;
+  margin: $mar ;
 }
 
 .left-nav > ul,
 .right-nav > ul {
+
+  display:flex;
+  align-items:flex-left; 
   font-weight: bold;
   font-family: $sans-serif;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -13,6 +23,7 @@
 
   > ul {
     > li {
+      margin-left: $mar ;
       padding: 5px;
     }
   }
@@ -27,11 +38,12 @@
   > ul {
 
     > li {
-      font-style: uppercase;
+      margin-right: $mar ;
+      text-transform: uppercase;
     }
 
     > li:last-of-type {
-  
+      
     }
   }
   
@@ -42,5 +54,7 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
+
+  background-color: $lightest-gray;
 
 }
