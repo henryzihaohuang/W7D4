@@ -130,4 +130,7 @@ article {
     height:100%;
     display: block;
   }
+  .sections-nav-links, .language-nav {
+	  display: none !important;
+  }
 }
